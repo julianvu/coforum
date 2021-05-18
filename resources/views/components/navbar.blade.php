@@ -13,7 +13,7 @@
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item"><a href="" class="nav-link">Julian Vu</a></li>
                 <li class="nav-item"><a href="" class="nav-link">Log In</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Register</a></li>
                 <li class="nav-item"><a href="" class="nav-link">Log Out</a></li>
             </ul>
         </div>
