@@ -1,1 +1,10 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+$custom-theme-colors: (
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+);
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
 @import "~bootstrap/scss/bootstrap";
