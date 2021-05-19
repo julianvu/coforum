@@ -1,4 +1,4 @@
-@extends('app.blade')
+@extends('layouts.app')
 
 @section('content')
     <div class="container bg-light p-4">
