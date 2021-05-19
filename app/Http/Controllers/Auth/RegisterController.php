@@ -41,6 +41,6 @@ class RegisterController extends Controller
         auth()->attempt($request->only('email', 'password'));
 
         // Redirect user away from Register page
-        return redirect()->route('posts');
+        return redirect()->route('home');
     }
 }
