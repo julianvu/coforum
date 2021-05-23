@@ -8,7 +8,7 @@ class PostController extends Controller
 {
     public function index()
     {
-        return view ('posts.index');
+        return view ('posts.post-thread');
     }
 
     public function store(Request $request)
